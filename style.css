@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+}
+
+header img{
+    width: 120px;
+    height: 70px;
+    margin: 0 130px;
+}
+
+
+.work-hours p {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 21px;
+    line-height: 100%;
+    align: Left;
+    vertical-align: Top;
+}
+
+.work-adress p {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 21px;
+    line-height: 100%;
+    align: Left;
+    vertical-align: Top;
+    width: 210px;
+    margin-top: 30px;
+}
+
+
+nav{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    background-color: #44AB42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 15px;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav A:hover{
+    background: #009926;
+}
+
+nav a:nth-child(2){
+    margin: 0 150px;
+}
+
+main .main-img{
+    width: 100%;
+    height: 370px;
+    background-image: url("img/restaurant-food.jpg");
+    background-size: cover;
+    background-position: top;
+    opacity: 0.6;
+}
+.main-img h1 {
+    font-family: Kenia;
+}
+.main-img a {
+    font-family: Kranky;
+}
+
+main h1{
+    color: #ffffff ;
+    margin: 0;
+    margin-left: 42px;
+    padding-top: 58px;
+    padding-bottom: 69px ;
+    font-size: 50px;
+}
+
+main a{
+    background: #A9A1A1;
+    width: 400px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #000000;
+    padding: 10px 20px;
+    margin-left: 100px;
+} 
+
+
+main a:hover{
+    background-color: #00cc66;
+}
+
+
+.menu{
+    width: 100%;
+    padding: 0 102px;
+    font-family: IM Fell DW Pica;
+}
+
+.menu h2{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-container h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu-container div{
+    width: 33%;
+
+}
+
+.meal{
+    display: flex;
+    margin-bottom: 41px;
+}
+
+.meal img{
+    width: 60px;
+    height: 60px; 
+    margin-right: 20px;
+}
+
+.meal span{
+    font-size: 24px;    
+    line-height: 60px;
+}
