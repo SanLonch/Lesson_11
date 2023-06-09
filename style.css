@@ -79,6 +79,7 @@ main .main-img{
 }
 .main-img a {
     font-family: Kranky;
+    opasity: 0.8;
 }
 
 main h1{
